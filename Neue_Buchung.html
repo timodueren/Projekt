@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <title>Neue Buchung</title>
     <link rel="stylesheet" type="text/css" href="../menu.css">
+    <link rel="stylesheet" type="text/css" href="../Layout%20allgemein.css">
 </head>
 <body>
+<div class="background">
 <div id="header" class="header">
     <h2><a style="color: black", href="../Startseite.html"> Party & Caterungen <br> Lingen </a></h2>
 </div>
 <div id="menu">
     <ul>
+        <li id="Ersatz"> Menü </li>
         <li><a><img src="../Bilder/Packete%20und%20Preise.jpg">Pakete und Preise</a>
             <ul>
                 <h3>Pakete und Preise</h3>
@@ -36,6 +39,345 @@
 </div>
 
 <!-- Inhalt -->
-
+    <div id="Buchung">
+        <br><br><br><br><br><br><br><br><br>
+        <fieldset>
+        <table>
+            <tr>
+                <td></td>
+                <td>Party & Catering Lingen</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Rheiner Str. XX</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>49808 Lingen</td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+            </tr>
+            <tr>
+                <td>Tel.:</td>
+                <td>xxxxx/xxxxx</td>
+            </tr>
+            <tr>
+                <td>E-Mail.:</td>
+                <td>party&cateringlingen@gmx.de</td>
+            </tr>
+        </table>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <table>
+            <tr>
+                <th colspan="2">Was dürfen wir für Sie tun?</th>
+            </tr>
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" name="name" value="" /></td>
+            </tr>
+            <tr>
+                <td>Straße/Nr.:</td>
+                <td><input type="text" name="straße" value=""/>
+                    <input type="text" name="nr" value=""/></td>
+            </tr>
+            <tr>
+                <td>PLZ/Stadt:</td>
+                <td><input type="text" name="plz" value=""/>
+                    <input type="text" name="stadt" value=""/></td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+            </tr>
+            <tr>
+                <td>Telefon:</td>
+                <td><input type="text" name="telefon" value="" /></td>
+            </tr>
+            <tr>
+                <td>E-Mail:</td>
+                <td><input type="text" name="e-mail" value="" /></td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+            </tr>
+            <tr>
+                <td>Ihr Wunschdatum</td>
+                <td><input type="text" name="datum" value="" /></td>
+            </tr>
+            <tr>
+                <td>Anzahl der Gäste</td>
+                <td><input type="text" name="gaeste" value="" /></td>
+            </tr>
+            </table>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <table>
+            <tr>
+                <td>Paket</td>
+                <td>
+                    <input type="radio" name="paket" value="Keines"/>Keines<br>
+                    <input type="radio" name="paket" value="Komplettpaket"/>Komplettpaket<br>
+                    <input type="radio" name="paket" value="Hochzeitspaket"/>Hochzeitspaket<br>
+                    <input type="radio" name="paket" value="Junggesellenabschied"/>Junggesellenabschied<br>
+                    <input type="radio" name="paket" value="Luxuspaket"/>Luxuspaket<br>
+                    <input type="radio" name="paket" value="Kids"/>Kids<br>
+                </td>
+            </tr>
+            </table>
+        </fieldset>
+        <br><br>
+        <fieldset>
+                <h1>Getränke</h1>
+        </fieldset>
+        <fieldset>
+            <table>
+            <tr>
+                <td>Heißgetränke</td>
+                <td>
+                    <input type="checkbox" name="heißgetränke" value="Filterkaffee"/>Filterkaffee<br>
+                    <input type="checkbox" name="heißgetränke" value="Cappuccino"/>Cappuccino<br>
+                    <input type="checkbox" name="heißgetränke" value="Latte Macchiato"/>Latte Macchiato<br>
+                    <input type="checkbox" name="heißgetränke" value="Tee"/>Tee<br>
+                    <input type="checkbox" name="heißgetränke" value="Heiße Schokolade"/>Heiße Schokolade<br>
+                    <input type="checkbox" name="heißgetränke" value="Heiße weiße Schokolade"/>Heiße weiße Schokolade<br>
+                </td>
+            </tr>
+            </table>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <table>
+            <tr>
+                <td>Nichtalkoholische Getränke</td>
+                <td>
+                    <input type="checkbox" name="nichtalkoholisch" value="Wasser Naturelle"/>Wasser Naturelle<br>
+                    <input type="checkbox" name="nichtalkoholisch" value="Wasser Medium"/>Wasser Medium<br>
+                    <input type="checkbox" name="nichtalkoholisch" value="Wasser Classic"/>Wasser Classic<br>
+                    <input type="checkbox" name="nichtalkoholisch" value="Coca-Cola"/>Coca-Cola<br>
+                    <input type="checkbox" name="nichtalkoholisch" value="Fanta"/>Fanta<br>
+                    <input type="checkbox" name="nichtalkoholisch" value="Sprite"/>Sprite<br>
+                    <input type="checkbox" name="nichtalkoholisch" value="Apfelsaft"/>Apfelsaft<br>
+                    <input type="checkbox" name="nichtalkoholisch" value="Apfelschorle"/>Apfelschorle<br>
+                    <input type="checkbox" name="nichtalkoholisch" value="Orangensaft"/>Orangensaft<br>
+                </td>
+            </tr>
+            </table>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <table>
+            <tr>
+                <td>Bier</td>
+                <td>
+                    <input type="checkbox" name="Bier" value="Bittburger"/>Bittburger<br>
+                    <input type="checkbox" name="Bier" value="Bittburger alkoholfrei"/>Bittburger alkoholfrei<br>
+                    <input type="checkbox" name="Bier" value="Radler"/>Radler<br>
+                    <input type="checkbox" name="Bier" value="Hefeweizen "/>Hefeweizen<br>
+                    <input type="checkbox" name="Bier" value="Hefeweizen alkoholfrei"/>Hefeweizen alkoholfrei<br>
+                </td>
+            </tr>
+            </table>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <table>
+            <tr>
+                <td>Wein</td>
+                <td>
+                    <input type="checkbox" name="Wein" value="Riesling trocken"/>Riesling trocken<br>
+                    <input type="checkbox" name="Wein" value="Grauburgunder"/>Grauburgunder<br>
+                    <input type="checkbox" name="Wein" value="Pinot Noir Rose"/>Pinot Noir Rosé<br>
+                    <input type="checkbox" name="Wein" value="Chiantin"/>Chiantin<br>
+                    <input type="checkbox" name="Wein" value="Spätburgunder"/>Spätburgunder<br>
+                    <input type="checkbox" name="Wein" value="Tempranillo"/>Tempranillo<br>
+                </td>
+            </tr>
+            </table>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <table>
+            <tr>
+                <td>Cocktails</td>
+                <td>
+                    <input type="checkbox" name="Cocktails" value="Caipirinha"/>Caipirinha<br>
+                    <input type="checkbox" name="Cocktails" value="Mojito"/>Mojito<br>
+                    <input type="checkbox" name="Cocktails" value="Cuba Libre"/>Cuba Libre<br>
+                    <input type="checkbox" name="Cocktails" value="Tequila Sunrise"/>Tequila Sunrise<br>
+                    <input type="checkbox" name="Cocktails" value="Long Island Iced Tea"/>Long Island Iced Tea<br>
+                    <input type="checkbox" name="Cocktails" value="Ipanema"/>Ipanema<br>
+                    <input type="checkbox" name="Cocktails" value="Virgin Mule"/>Virgin Mule<br>
+                </td>
+            </tr>
+            </table>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <table>
+            <tr>
+                <td>Spirituosen</td>
+                <td>
+                    <input type="checkbox" name="Spirituosen" value="Sambuca"/>Sambuca<br>
+                    <input type="checkbox" name="Spirituosen" value="43er"/>43er<br>
+                    <input type="checkbox" name="Spirituosen" value="Baileys"/>Baileys<br>
+                    <input type="checkbox" name="Spirituosen" value="Jägermeister"/>Jägermeister<br>
+                    <input type="checkbox" name="Spirituosen" value="Tequila"/>Tequila<br>
+                    <input type="checkbox" name="Spirituosen" value="Wodka"/>Wodka<br>
+                    <input type="checkbox" name="Spirituosen" value="Obstbrände"/>Obstbrände<br>
+                    <input type="checkbox" name="Spirituosen" value="Cognac"/>Cognac<br>
+                    <input type="checkbox" name="Spirituosen" value="Whisky"/>Whisky<br>
+                </td>
+            </tr>
+            </table>
+        </fieldset>
+        <br><br>
+        <fieldset>
+                <h1>Speisen</h1>
+        </fieldset>
+        <fieldset>
+            <table>
+            <tr>
+                <td>Suppen</td>
+                <td>
+                    <input type="checkbox" name="Suppen" value="Hochzeitssuppe"/>Hochzeitssuppe<br>
+                    <input type="checkbox" name="Suppen" value="Tomatensuppe"/>Tomatensuppe<br>
+                    <input type="checkbox" name="Suppen" value="Porreecremesuppe"/>Porreecremesuppe<br>
+                    <input type="checkbox" name="Suppen" value="Gulaschsuppe"/>Gulaschsuppe<br>
+                    <input type="checkbox" name="Suppen" value="Gyrossuppe"/>Gyrossuppe<br>
+                </td>
+            </tr>
+            </table>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <table>
+            <tr>
+                <td>Kleine Gerichte</td>
+                <td>
+                    <input type="checkbox" name="Kleine Gerichte" value="Hähnchenschnitzel"/>Hähnchenschnitzel<br>
+                    <input type="checkbox" name="Kleine Gerichte" value="Leberkäse"/>Leberkäse<br>
+                    <input type="checkbox" name="Kleine Gerichte" value="Sauerfleisch"/>Sauerfleisch<br>
+                    <input type="checkbox" name="Kleine Gerichte" value="Roastbeef"/>Roastbeef<br>
+                    <input type="checkbox" name="Kleine Gerichte" value="Matjes"/>Matjes<br>
+                </td>
+            </tr>
+            </table>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <table>
+            <tr>
+                <td>Hauptgerichte</td>
+                <td>
+                    <input type="checkbox" name="Hauptgerichte" value="Kohlrouladen"/>Kohlrouladen<br>
+                    <input type="checkbox" name="Hauptgerichte" value="Gyrosbraten"/>Gyrosbraten<br>
+                    <input type="checkbox" name="Hauptgerichte" value="Sahneschnitzel"/>Sahneschnitzel<br>
+                    <input type="checkbox" name="Hauptgerichte" value="Geschnetzeltes Schweinefilet"/>Geschnetzeltes Schweinefilet<br>
+                    <input type="checkbox" name="Hauptgerichte" value="Gratiniertes Schweinefilet"/>Gratiniertes Schweinefilet<br>
+                </td>
+            </tr>
+            </table>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <table>
+            <tr>
+                <td>Vegetarische Gerichte</td>
+                <td>
+                    <input type="checkbox" name="Vegetarische Gerichte" value="Gebratene Nudeln"/>Gebratene Nudeln<br>
+                    <input type="checkbox" name="Vegetarische Gerichte" value="Nudelngemüseauflauf"/>Nudelngemüseauflauf<br>
+                    <input type="checkbox" name="Vegetarische Gerichte" value="Gemüseauflauf"/>Gemüseauflauf<br>
+                    <input type="checkbox" name="Vegetarische Gerichte" value="Falaffel"/>Falaffel<br>
+                    <input type="checkbox" name="Vegetarische Gerichte" value="Gemischter Salat"/>Gemischter Salat<br>
+                </td>
+            </tr>
+            </table>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <table>
+            <tr>
+                <td>Nachspeisen</td>
+                <td>
+                    <input type="checkbox" name="Nachspeisen" value="Eis mit Früchten"/>Eis mit Früchten<br>
+                    <input type="checkbox" name="Nachspeisen" value="Mousse au Chocolat"/>Mousse au Chocolat<br>
+                    <input type="checkbox" name="Nachspeisen" value="Creme Brulee"/>Crème Brûlée<br>
+                    <input type="checkbox" name="Nachspeisen" value="Tiramisu"/>Tiramisu<br>
+                    <input type="checkbox" name="Nachspeisen" value="Panna Cotta"/>Panna Cotta<br>
+                </td>
+            </tr>
+            </table>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <h1>Sonstiges</h1>
+        </fieldset>
+        <fieldset>
+            <table>
+            <tr>
+                <td>Unterhaltungen</td>
+                <td>
+                    <input type="checkbox" name="Unterhaltungen" value="DJ"/>DJ<br>
+                    <input type="checkbox" name="Unterhaltungen" value="Live-Band"/>Live-Band<br>
+                    <input type="checkbox" name="Unterhaltungen" value="Artisten"/>Artisten<br>
+                    <input type="checkbox" name="Unterhaltungen" value="Comedian"/>Comedian<br>
+                    <input type="checkbox" name="Unterhaltungen" value="Clowns"/>Clowns<br>
+                    <input type="checkbox" name="Unterhaltungen" value="Bauchredner"/>Bauchredner<br>
+                </td>
+            </tr>
+            </table>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <table>
+            <tr>
+                <td>Extras</td>
+                <td>
+                    <input type="checkbox" name="Extras" value="Hüpfburgen"/>Hüpfburgen<br>
+                    <input type="checkbox" name="Extras" value="Trampoline"/>Trampoline<br>
+                    <input type="checkbox" name="Extras" value="Partyspiele"/>Partyspiele<br>
+                    <input type="checkbox" name="Extras" value="Puppentheater"/>Puppentheater<br>
+                    <input type="checkbox" name="Extras" value="Heizpilz"/>Heizpilz<br>
+                    <input type="checkbox" name="Extras" value="Barista"/>Barista<br>
+                </td>
+            </tr>
+            </table>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <h1>Anmerkungen</h1>
+        </fieldset>
+        <fieldset>
+            <table>
+            <tr>
+                <td></td><td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><textarea name="freitext" cols="40" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox" name="datenschutzerklaerung"/>
+                    <label>Die Datenschutzerklärung habe ich zur Kenntnis genommen und akzeptiert.</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Anfrage senden"/></td>
+            </tr>
+            </table>
+        </fieldset>
+    </div>
+</div>
 </body>
 </html>

@@ -1,0 +1,268 @@
+.background{
+    background-image: url("Bilder/backgrund.jpg");
+    background-size: cover;
+    background-position: center;
+    height:100%;
+    background-repeat: repeat-y;
+}
+
+#Start{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#Start h1{
+    text-align: center;
+    color: black;
+}
+
+#Start textarea{
+    overflow-scrolling: auto;
+    border: none;
+    height: 630px;
+    width: 100%;
+    resize: none;
+    content: unset;
+    font-size: 14px;
+    background-color: #f1f1f1;
+}
+
+#body_Erfahrung fieldset{
+    width: 50%;
+    max-height: 200px;
+    background-color: #f1f1f1;
+    border-top-width: 25px;
+    border-color: #f1f1f1;
+}
+
+#body_Erfahrung fieldset legend {
+    background-color: #f1f1f1;
+}
+
+#body_Erfahrung fieldset textarea{
+    overflow-scrolling: auto;
+    border: none;
+    height: 180px;
+    width: 100%;
+    resize: none;
+    content: unset;
+    font-size: 14px;
+    background-color: #f1f1f1;
+}
+
+#body_Erfahrung img{
+    width: 40%;
+    margin-left: 55%;
+    margin-top: -220px;
+    max-height: 220px;
+}
+
+#Speisen fieldset{
+    width: 50%;
+    max-height: 140px;
+    background-color: #f1f1f1;
+    border-top-width: 25px;
+    border-color: #f1f1f1;
+}
+
+#Speisen fieldset legend {
+    background-color: #f1f1f1;
+}
+
+#Speisen img{
+    width: 30%;
+    margin-left: 60%;
+    margin-top: -200px;
+    max-height: 180px;
+}
+
+#Speisen fieldset table{
+    table-layout: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+#Getraenke fieldset{
+    width: 50%;
+    max-height: 230px;
+    background-color: #f1f1f1;
+    border-top-width: 25px;
+    border-color: #f1f1f1;
+}
+
+#Getraenke fieldset legend {
+    background-color: #f1f1f1;
+}
+
+#Getraenke img{
+    width: 30%;
+    margin-left: 60%;
+    max-height: 180px;
+    margin-top: -90%;
+}
+
+#Getraenke fieldset table{
+    table-layout: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+#Unterhaltung fieldset{
+     width: 50%;
+     max-height: 230px;
+     background-color: #f1f1f1;
+     border-top-width: 25px;
+     border-color: #f1f1f1;
+ }
+
+#Unterhaltung fieldset legend {
+    background-color: #f1f1f1;
+}
+
+#Unterhaltung img{
+    width: 25%;
+    margin-left: 60%;
+    max-height: 180px;
+    margin-top: -90%;
+}
+
+#Unterhaltung fieldset table{
+    table-layout: fixed;
+    width: 100%;
+    text-align: left;
+}
+
+#Extras fieldset{
+    width: 50%;
+    max-height: 230px;
+    background-color: #f1f1f1;
+    border-top-width: 25px;
+    border-color: #f1f1f1;
+}
+
+#Extras fieldset legend {
+    background-color: #f1f1f1;
+}
+
+#Extras img{
+    width: 25%;
+    margin-left: 60%;
+    max-height: 180px;
+    margin-top: -90%;
+}
+
+#Extras fieldset table{
+    table-layout: fixed;
+    width: 100%;
+    text-align: left;
+}
+
+#Pakete fieldset{
+    width: 50%;
+    max-height: 200px;
+    background-color: #f1f1f1;
+    border-top-width: 25px;
+    border-color: #f1f1f1;
+}
+
+#Pakete fieldset legend {
+    background-color: #f1f1f1;
+}
+
+#Pakete fieldset textarea{
+    overflow-scrolling: auto;
+    border: none;
+    height: 180px;
+    width: 100%;
+    resize: none;
+    content: unset;
+    font-size: 14px;
+    background-color: #f1f1f1;
+}
+
+#Pakete img{
+    width: 35%;
+    margin-left: 60%;
+    margin-top: -220px;
+    max-height: 220px;
+}
+
+#Ueber_uns{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#Ueber_uns h1{
+    text-align: center;
+    color: black;
+}
+
+#Ueber_uns textarea{
+    overflow-scrolling: auto;
+    border: none;
+    height: 180px;
+    width: 100%;
+    resize: none;
+    content: unset;
+    font-size: 100%;
+    background-color: #f1f1f1;
+    line-break: loose;
+}
+
+#Ueber_uns div{
+    text-align: center;
+    font-size: 16px;
+}
+
+#Buchung{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#Buchung fieldset{
+    width: 100%;
+    max-height: 300px;
+    background-color: #f1f1f1;
+    border-top-width: 25px;
+    border-color: #f1f1f1;
+}
+
+#Buchung fieldset legend {
+    background-color: #f1f1f1;
+}
+
+#Buchung img{
+    width: 30%;
+    margin-left: 60%;
+    margin-top: -200px;
+    max-height: 180px;
+}
+
+#Buchung fieldset table{
+    table-layout: fixed;
+    width: 100%;
+    text-align: left;
+}
+
+#Buchung fieldset h1{
+    text-align: center;
+    font-size: 16px;
+}
+
+#Buchung_einsehen h1{
+    text-align: center;
+    color: black;
+}
+
+#Login{
+    margin-right: 40%;
+    margin-left: 40%;
+}
+
+#Login fieldset{
+    width: 100%;
+    max-height: 300px;
+    background-color: #f1f1f1;
+    border-top-width: 25px;
+    border-color: #f1f1f1;
+}
